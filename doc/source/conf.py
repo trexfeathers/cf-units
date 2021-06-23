@@ -36,8 +36,8 @@ project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
 
-from pkg_resources import get_distribution
-release = get_distribution('myproject').version
+from importlib.metadata import version
+release = version("cf_units")
 version = '.'.join(release.split('.')[:2])
 
 
