@@ -36,8 +36,10 @@ project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
 
-version = "2.1.6"
-release = version
+from importlib import metadata
+current_version = metadata.version("cf_units")
+version = current_version.split("+")[0]
+release = current_version
 
 
 # -- Options for HTML output ----------------------------------------------
