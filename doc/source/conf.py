@@ -36,11 +36,8 @@ project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
 
-import setuptools_scm
-from os import chdir
-with chdir("../.."):
-    release = setuptools_scm.get_version()
-version = '.'.join(release.split('.')[:2])
+version = "2.1.6"
+release = version
 
 
 # -- Options for HTML output ----------------------------------------------
