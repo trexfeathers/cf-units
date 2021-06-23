@@ -38,7 +38,7 @@ copyright = "Copyright cf-units contributors"
 
 from importlib.metadata import version
 release = version("cf_units")
-version = '.'.join(release.split('.')[:2])
+__version__ = '.'.join(release.split('.')[:2])
 
 
 # -- Options for HTML output ----------------------------------------------
