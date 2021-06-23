@@ -4,7 +4,6 @@
 # See COPYING and COPYING.LESSER in the root of the repository for full
 # licensing details.
 
-from importlib import metadata
 
 extensions = [
     "sphinx.ext.autodoc",
@@ -21,6 +20,7 @@ master_doc = "index"
 project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
+from importlib import metadata
 current_version = metadata.version("cf_units")
 version = current_version.split("+")[0]
 release = current_version
