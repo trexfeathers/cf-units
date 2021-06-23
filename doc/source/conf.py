@@ -36,9 +36,11 @@ project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
 
-from importlib.metadata import version
-release = version("cf_units")
-__version__ = '.'.join(release.split('.')[:2])
+import setuptools_scm
+from os import chdir
+with chdir("../.."):
+    release = setuptools_scm.get_version()
+version = '.'.join(release.split('.')[:2])
 
 
 # -- Options for HTML output ----------------------------------------------
