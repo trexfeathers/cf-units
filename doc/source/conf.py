@@ -36,9 +36,9 @@ project = "cf-units"
 copyright = "Copyright cf-units contributors"
 
 
-current_version = cf_units.__version__
-version = current_version.split("+")[0]
-release = current_version
+from pkg_resources import get_distribution
+release = get_distribution('myproject').version
+version = '.'.join(release.split('.')[:2])
 
 
 # -- Options for HTML output ----------------------------------------------
