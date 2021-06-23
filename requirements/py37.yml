@@ -25,3 +25,6 @@ dependencies:
 # dev dependencies
   - pip
   - pre-commit
+
+# docs dependencies
+  - sphinx
