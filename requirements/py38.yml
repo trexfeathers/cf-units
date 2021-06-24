@@ -29,4 +29,3 @@ dependencies:
 # docs dependencies
   - setuptools_scm
   - sphinx
-  - sphinx_rtd_theme
