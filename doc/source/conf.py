@@ -4,8 +4,6 @@
 # See COPYING and COPYING.LESSER in the root of the repository for full
 # licensing details.
 
-import cf_units
-
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
