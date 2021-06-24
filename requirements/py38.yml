@@ -27,5 +27,6 @@ dependencies:
   - pre-commit
 
 # docs dependencies
-  - sphinx
   - setuptools_scm
+  - sphinx
+  - sphinx_rtd_theme

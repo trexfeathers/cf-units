@@ -27,7 +27,7 @@ release = current_version
 
 # -- Options for HTML output ----------------------------------------------
 
-html_theme = "alabaster"
+html_theme = "sphinx_rtd_theme"
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {"http://docs.python.org/": None}
