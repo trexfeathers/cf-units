@@ -28,3 +28,4 @@ dependencies:
 
 # docs dependencies
   - sphinx
+  - setuptools_scm
