@@ -34,4 +34,4 @@ jobs:
         id: prompt_author
         env:
           GITHUB_TOKEN: ${{ secrets.SCITOOLS_CI_MIMIC }}
-        run: SciTools.github/_templating_scripting.py prompt-share
+        run: SciTools.github/templates/_templating_scripting.py prompt-share
