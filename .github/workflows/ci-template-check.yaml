@@ -18,6 +18,7 @@ jobs:
         with:
           repository: SciTools/.github
           path: SciTools.github
+          branch: demo_templating
 
 #      - name: Generate Token
 #        id: generate_token
