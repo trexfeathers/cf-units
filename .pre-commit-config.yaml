@@ -6,7 +6,7 @@
 
 ci:
     autofix_prs: false
-    autoupdate_commit_msg: "chore: update pre-commit hooks"
+    autoupdate_commit_msg: "chore: something else"
 
 exclude: 'cf_units/_udunits2_parser/_antlr4_runtime/'
 
